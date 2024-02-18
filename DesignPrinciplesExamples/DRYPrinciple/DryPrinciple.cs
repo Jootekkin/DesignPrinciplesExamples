@@ -9,7 +9,7 @@ namespace DesignPrinciplesExamples.DRYPrinciple
     public class DryPrinciple
     {
 
-        #region beforeApplay
+        #region beforeApply
         public void processSalary() {
         double salary = 3000;
         double bonus = 2000;
@@ -24,6 +24,22 @@ namespace DesignPrinciplesExamples.DRYPrinciple
             total = salary + bonus - taxes; // outPut 5000 + 1500 - 1000 = 5500
             Console.WriteLine($"Total = {total}");
         }
+        #endregion
+
+
+        #region afterApply
+
+        public static double calculateSalary(double salary, double bonus, double taxes ) {
+
+        return salary + bonus - taxes;
+
+        }
+
+        public double empSalary1 = calculateSalary(5000, 2000, 1500); //outPut 5500
+
+        //Use Code again 
+        public double empSalary2 = calculateSalary(6000, 2000, 1800); //outPut 6200
+
         #endregion
     }
 }
