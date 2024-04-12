@@ -21,5 +21,10 @@ namespace DesignPrinciplesExamples.KISSPrinciple
             }
         }
         #endregion
+
+        #region AfterApply
+        public string IsEvenOrOdd(decimal number)
+            => number % 2 == 0 ? "Even" : "Odd";
+        #endregion
     }
 }
