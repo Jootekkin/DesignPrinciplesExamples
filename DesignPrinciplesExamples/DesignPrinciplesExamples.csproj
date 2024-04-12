@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DRYPrinciple\DryPrinciple.cs" />
+    <Compile Include="KISSPrinciple\KissPrinciple.cs" />
+    <Compile Include="KISSPrinciple\KissPrinciple2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
