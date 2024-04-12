@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DRYPrinciple\DryPrinciple.cs" />
+    <Compile Include="ENCAPSULATEWhatVaries\EncapsulateWhatVaries.cs" />
     <Compile Include="KISSPrinciple\KissPrinciple.cs" />
     <Compile Include="KISSPrinciple\KissPrinciple2.cs" />
     <Compile Include="Program.cs" />
