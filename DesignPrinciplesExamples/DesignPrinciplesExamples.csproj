@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DependencyInversionPrinciple\DIPrinciple.cs" />
+    <Compile Include="DependencyInversionPrinciple\Email.cs" />
+    <Compile Include="DependencyInversionPrinciple\ISender.cs" />
+    <Compile Include="DependencyInversionPrinciple\Phone.cs" />
     <Compile Include="DRYPrinciple\DryPrinciple.cs" />
     <Compile Include="ENCAPSULATEWhatVaries\AfterApplying\ContractEmployee.cs" />
     <Compile Include="ENCAPSULATEWhatVaries\AfterApplying\Employee.cs" />
@@ -57,5 +61,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
