@@ -53,6 +53,10 @@
     <Compile Include="ENCAPSULATEWhatVaries\AfterApplying\PermanentEmployee.cs" />
     <Compile Include="ENCAPSULATEWhatVaries\EncapsulateWhatVaries.cs" />
     <Compile Include="ENCAPSULATEWhatVaries\AfterApplying\IEmployee.cs" />
+    <Compile Include="InterfaceSegregationPrinciple\AfterApplying\Eagle.cs" />
+    <Compile Include="InterfaceSegregationPrinciple\AfterApplying\IFlying.cs" />
+    <Compile Include="InterfaceSegregationPrinciple\AfterApplying\INotFlaying.cs" />
+    <Compile Include="InterfaceSegregationPrinciple\AfterApplying\Penguin.cs" />
     <Compile Include="InterfaceSegregationPrinciple\BeforeApplying\Eagle.cs" />
     <Compile Include="InterfaceSegregationPrinciple\BeforeApplying\IBird.cs" />
     <Compile Include="InterfaceSegregationPrinciple\BeforeApplying\Penguin.cs" />
