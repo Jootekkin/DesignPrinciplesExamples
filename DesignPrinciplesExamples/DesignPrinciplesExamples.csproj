@@ -53,6 +53,9 @@
     <Compile Include="ENCAPSULATEWhatVaries\AfterApplying\PermanentEmployee.cs" />
     <Compile Include="ENCAPSULATEWhatVaries\EncapsulateWhatVaries.cs" />
     <Compile Include="ENCAPSULATEWhatVaries\AfterApplying\IEmployee.cs" />
+    <Compile Include="InterfaceSegregationPrinciple\BeforeApplying\Eagle.cs" />
+    <Compile Include="InterfaceSegregationPrinciple\BeforeApplying\IBird.cs" />
+    <Compile Include="InterfaceSegregationPrinciple\BeforeApplying\Penguin.cs" />
     <Compile Include="KISSPrinciple\KissPrinciple.cs" />
     <Compile Include="KISSPrinciple\KissPrinciple2.cs" />
     <Compile Include="Program.cs" />
