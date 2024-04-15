@@ -62,6 +62,10 @@
     <Compile Include="InterfaceSegregationPrinciple\BeforeApplying\Penguin.cs" />
     <Compile Include="KISSPrinciple\KissPrinciple.cs" />
     <Compile Include="KISSPrinciple\KissPrinciple2.cs" />
+    <Compile Include="LiskovSubstitution\AfterApplying\IHealer.cs" />
+    <Compile Include="LiskovSubstitution\AfterApplying\IPlayer.cs" />
+    <Compile Include="LiskovSubstitution\AfterApplying\TeamDoctor.cs" />
+    <Compile Include="LiskovSubstitution\AfterApplying\TeamPlayer.cs" />
     <Compile Include="LiskovSubstitution\BeforeApplying\TeamDoctor.cs" />
     <Compile Include="LiskovSubstitution\BeforeApplying\TeamMember.cs" />
     <Compile Include="LiskovSubstitution\BeforeApplying\TeamPlayer.cs" />
