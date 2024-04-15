@@ -77,6 +77,9 @@
     <Compile Include="OpenClosePrinciple\BeforeApplying\Square.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingleResponsibilityPrinciple\AfterApplying\Order.cs" />
+    <Compile Include="SingleResponsibilityPrinciple\AfterApplying\OrderPrinter.cs" />
+    <Compile Include="SingleResponsibilityPrinciple\AfterApplying\OrderSaver.cs" />
     <Compile Include="SingleResponsibilityPrinciple\BeforeApplying\Order.cs" />
   </ItemGroup>
   <ItemGroup>
